@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image:url(Assert/pexels-barbara-sheldrake-1449680-2836719.jpg );
+    background-repeat: none;
+    background-size: 100vw;
+    
+}
+
+.center ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 300%;
+    list-style: none;
+}
+
+.center li {
+    height: 60px;
+}
+
+.center ul a {
+    text-decoration: none;
+    color: azure;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.center ul a:hover{
+    background-color: chartreuse;
+    color: #000;
+}
